@@ -8,7 +8,9 @@ const char* odd(int a){
 
 int main(void){
     int num;
-    printf("Hello World!");
+    printf("Hello");
+    printf("World");
+    printf("!");
     printf("Enter Number: ");
     scanf("%d", &num);
     printf("%s\n", odd(num));
